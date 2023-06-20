@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MenuButtons from "../buttons/MenuButtons";
 import MenuBurger from "./MenuBurger";
+import MenuPlane from "./MenuPlane";
 
 export default function NavIcons() {
   // Utilisation de useState pour gérer l'état des menus
@@ -99,15 +100,11 @@ export default function NavIcons() {
       {/* Affichage du premier menu en fonction de l'état de menuOpen1 */}
       {menuOpen1 && (
         <div className="fixed right-0 top-0 h-screen w-full lg:w-[37%] z-10 bg-white">
-          <div className="flex justify-end bg-black h-40 p-4">
-            <span
-              onClick={toggleMenu1}
-              className="w-10 h-10 lg:w-14 lg:h-14 rounded-full bg-white flex justify-center items-center text-3xl text-gray-400 cursor-pointer"
-            >
-              x
-            </span>
+          <div className="flex bg-black h-40 p-4">
+            <div>
+              <MenuPlane />
+            </div>
           </div>
-          {/* Contenu du premier menu */}
         </div>
       )}
       {/* Affichage du deuxième menu en fonction de l'état de menuOpen2 */}

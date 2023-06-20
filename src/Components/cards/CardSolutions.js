@@ -8,7 +8,7 @@ export default function CardSolutions() {
         <h3 className="pt-[3.7vw] font-semibold text-3xl lg:text-6xl">
           Flexible Services
         </h3>
-        <p className="text-xl font-semibold py-5">
+        <p className="text-lg font-medium py-3">
           Smart solutions for all your charter requirements
         </p>
         <div className="absolute bottom-2 lg:bottom-16">
