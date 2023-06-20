@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import MenuButtons from "../buttons/MenuButtons";
+import MenuBurger from "./MenuBurger";
 
 export default function NavIcons() {
   // Utilisation de useState pour gérer l'état des menus
@@ -15,10 +17,10 @@ export default function NavIcons() {
 
   return (
     <>
-      <div className="lg:flex lg:gap-3">
+      <div className="lg:flex lg:gap-3 items-center">
         {/* Première icône avec un cercle noir */}
         <div
-          className="lg:my-0 flex justify-center items-center w-10 h-10 rounded-full bg-black cursor-pointer z-10"
+          className="lg:my-0 flex justify-center items-center w-12 h-12 rounded-full bg-black cursor-pointer z-10"
           onClick={toggleMenu1}
         >
           {/* Contenu SVG de l'icône */}
@@ -27,8 +29,8 @@ export default function NavIcons() {
             xmlnsXlink="http://www.w3.org/1999/xlink"
             fill="currentColor"
             viewBox="0 0 256 256"
-            width="20"
-            height="20"
+            width="25"
+            height="25"
           >
             {/* Contenu du chemin de l'icône */}
             <rect width="256" height="256" fill="none" />
@@ -44,7 +46,7 @@ export default function NavIcons() {
         </div>
         {/* Deuxième icône avec un cercle noir */}
         <div
-          className="my-2 lg:my-0 flex justify-center items-center w-10 h-10 rounded-full bg-black cursor-pointer"
+          className="my-2 lg:my-0 flex justify-center items-center w-12 h-12 rounded-full bg-black cursor-pointer"
           onClick={toggleMenu2}
         >
           {/* Contenu SVG de l'icône */}
@@ -111,15 +113,18 @@ export default function NavIcons() {
       {/* Affichage du deuxième menu en fonction de l'état de menuOpen2 */}
       {menuOpen2 && (
         <div className="fixed right-0 top-0 h-screen w-full lg:w-[37%] z-10 bg-white">
-          <div className="flex justify-end bg-[#fff] h-40 p-4">
+          <div className="lg:my-0 flex justify-center items-center p-[1.5vw]">
+            <MenuButtons />
             <span
               onClick={toggleMenu2}
-              className="w-10 h-10 lg:w-14 lg:h-14 rounded-full bg-[#000] flex justify-center items-center text-3xl text-gray-400 cursor-pointer"
+              className="w-10 h-10 lg:w-12 lg:h-12 rounded-full ml-2 pb-1 bg-black flex justify-center items-center text-3xl text-gray-400 cursor-pointer z-10"
             >
               x
             </span>
           </div>
-          {/* Contenu du deuxième menu */}
+          <div>
+            <MenuBurger />
+          </div>
         </div>
       )}
     </>
