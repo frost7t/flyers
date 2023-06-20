@@ -3,8 +3,8 @@ import React from "react";
 export default function NavIcons() {
   return (
     <>
-      <div className="flex gap-3">
-        <div className="flex justify-center items-center w-10 h-10 rounded-full bg-black">
+      <div className=" lg:flex lg:gap-3">
+        <div className="lg:my-0 flex justify-center items-center w-10 h-10 rounded-full bg-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -24,7 +24,7 @@ export default function NavIcons() {
             />
           </svg>
         </div>
-        <div className="flex justify-center items-center w-10 h-10 rounded-full bg-black">
+        <div className=" my-2 lg:my-0 flex justify-center items-center w-10 h-10 rounded-full bg-black">
           <svg
             xmlnsXlink="http://www.w3.org/1999/xlink"
             xmlns="http://www.w3.org/2000/svg"

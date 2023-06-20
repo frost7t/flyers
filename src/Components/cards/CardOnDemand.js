@@ -17,7 +17,7 @@ export default function CardOnDemand() {
   return (
     <Link href="/on-demand">
       <div
-        className="w-[33.33vw] h-[100vh] bg-left bg-cover z-20 relative flex"
+        className="w-full lg:h-[100vh] h-[33vh] bg-left bg-cover z-20 relative flex"
         style={{ backgroundImage: `url('/img/2.jpg')` }}
       >
         <h3

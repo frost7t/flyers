@@ -17,7 +17,7 @@ export default function CardShared() {
   return (
     <Link href="/shared">
       <div
-        className="w-[33.33vw] h-[100vh] bg-left bg-cover z-20 relative flex"
+        className="w-full lg:h-[100vh] h-[33vh] bg-left bg-cover z-20 relative flex overflow-hidden"
         style={{ backgroundImage: `url('/img/3.png')` }}
       >
         <h3
