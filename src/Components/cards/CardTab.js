@@ -47,9 +47,8 @@ const CardTab = () => {
               </p>
             </p>
             <Link href="/elevate-membership">
-              {" "}
-              // Affiche un lien qui pointe vers "/elevate-membership" lorsque
-              cliqué
+              {/* // Affiche un lien qui pointe vers "/elevate-membership" lorsque qu'il est cliqué */}
+
               <button className="bg-[#000] text-[#fff] p-2 rounded-full mt-5">
                 View Elevate Membership
               </button>
@@ -74,6 +73,7 @@ const CardTab = () => {
               <InputButtons />
               {/* // Affiche le composant InputButtons */}
             </div>
+            <button class="bg-black text-white rounded-full mt-20 w-20 h-10">Proceed</button>
           </div>
         )}
       </div>

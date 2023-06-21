@@ -101,8 +101,14 @@ export default function NavIcons() {
       {menuOpen1 && (
         <div className="fixed right-0 top-0 h-screen w-full lg:w-[37%] z-10 bg-white">
           <div className="flex bg-black h-40 p-4">
-            <div>
+            <div className="flex">
               <MenuPlane />
+              <span
+                onClick={toggleMenu1}
+                className="w-10 h-10 lg:w-12 lg:h-12 rounded-full xl:w-16 xl:h-14 ml-2 pb-1 bg-white flex justify-center items-center text-3xl text-gray-400 cursor-pointer z-10"
+              >
+                x
+              </span>
             </div>
           </div>
         </div>

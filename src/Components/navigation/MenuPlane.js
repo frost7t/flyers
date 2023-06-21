@@ -3,7 +3,7 @@ import CardTab from "../cards/CardTab";
 export default function MenuPlane() {
   return (
     <div>
-      <CardTab/>
+      <CardTab />
     </div>
   );
 }

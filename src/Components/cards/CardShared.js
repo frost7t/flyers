@@ -28,7 +28,7 @@ export default function CardShared() {
           onMouseEnter={handleMouseEnter} // Attribution de la fonction handleMouseEnter à l'événement onMouseEnter
           onMouseLeave={handleMouseLeave} // Attribution de la fonction handleMouseLeave à l'événement onMouseLeave
         >
-          Shared Flights{" "}
+          Shared Flights
           {isHovered && ( // Affichage conditionnel du contenu JSX si isHovered est vrai
             <svg
               xmlnsXlink="http://www.w3.org/1999/xlink"
