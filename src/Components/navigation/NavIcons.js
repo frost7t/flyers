@@ -21,7 +21,7 @@ export default function NavIcons() {
       <div className="lg:flex lg:gap-3 items-center">
         {/* Première icône avec un cercle noir */}
         <div
-          className="lg:my-0 flex justify-center items-center w-12 h-12 rounded-full bg-black cursor-pointer z-10"
+          className="lg:my-0 flex justify-center items-center w-12 h-12 rounded-full bg-black hover:bg-[#252424] cursor-pointer z-10"
           onClick={toggleMenu1}
         >
           {/* Contenu SVG de l'icône */}
@@ -47,7 +47,7 @@ export default function NavIcons() {
         </div>
         {/* Deuxième icône avec un cercle noir */}
         <div
-          className="my-2 lg:my-0 flex justify-center items-center w-12 h-12 rounded-full bg-black cursor-pointer"
+          className="my-2 lg:my-0 flex justify-center items-center w-12 h-12 rounded-full bg-black hover:bg-[#252424] cursor-pointer"
           onClick={toggleMenu2}
         >
           {/* Contenu SVG de l'icône */}
@@ -105,7 +105,7 @@ export default function NavIcons() {
               <MenuPlane />
               <span
                 onClick={toggleMenu1}
-                className="w-10 h-10 lg:w-12 lg:h-12 rounded-full xl:w-16 xl:h-14 ml-2 pb-1 bg-white flex justify-center items-center text-3xl text-gray-400 cursor-pointer z-10"
+                className="w-10 h-10 lg:w-12 lg:h-12 rounded-full xl:w-12 xl:h-12 ml-2 pb-1 bg-white flex justify-center items-center text-3xl text-gray-400 cursor-pointer z-10"
               >
                 x
               </span>

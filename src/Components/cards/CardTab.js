@@ -57,7 +57,7 @@ const CardTab = () => {
         )}
         {activeTab === 2 && ( // Si l'onglet actif est 2, affiche le contenu suivant
           <div>
-            <h1 className="text-4xl font-medium pb-10 text-[#fff]">
+            <h1 className=" text-lg md:text-4xl font-medium pb-10 text-[#fff]">
               Book a shared flight
             </h1>
             <div className="text-left pt-3">
@@ -73,7 +73,7 @@ const CardTab = () => {
               <InputButtons />
               {/* // Affiche le composant InputButtons */}
             </div>
-            <button class="bg-black text-white rounded-full mt-20 w-20 h-10">Proceed</button>
+            <button class="bg-black text-white rounded-full mt-16 w-20 h-10">Proceed</button>
           </div>
         )}
       </div>
