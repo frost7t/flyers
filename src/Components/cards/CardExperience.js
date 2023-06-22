@@ -10,7 +10,7 @@ export default function CardExperience() {
             <img src={card.img} alt={card.alt} />
             <div className="w-[90%] pt-5">
               <h3 className="font-semibold text-2xl pb-3">{card.title}</h3>
-              <p>{card.description}</p>
+              <p className="py-5">{card.description}</p>
             </div>
           </div>
         ))}
