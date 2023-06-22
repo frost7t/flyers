@@ -14,8 +14,8 @@ export default function CardDestination() {
   };
 
   return (
-    <div className="">
-      <div className="ml-[8%] pb-[9.3vw] flex">
+    <div className="w-[90%]">
+      <div className="ml-[8%] pb-[9.3vw] lg:flex">
         <img
           src={
             hoveredDestination
@@ -25,7 +25,7 @@ export default function CardDestination() {
           alt="slider"
           className="rounded-br-[60px]"
         />
-        <div className="grid grid-cols-2 w-[45%] h-[50%] ml-[3%] gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:w-[45%] lg:h-[50%] ml-[3%] gap-5">
           {DataDestination.map((destination) => (
             <DestinationItem
               key={destination.id} // Utilise l'ID de la destination comme clé
