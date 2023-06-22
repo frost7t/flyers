@@ -1,4 +1,5 @@
 import Destination from "@/Components/Destination";
+import FlightManager from "@/Components/FlightManager";
 import Hero from "@/Components/Hero";
 import Services from "@/Components/Services";
 import Header from "@/Components/header/Header";
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Services />
       <Destination />
+      <FlightManager />
     </Layout>
   );
 }
