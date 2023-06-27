@@ -4,7 +4,7 @@ export default function SocialFooter() {
   return (
     // window.open c'est une fonction fournie par le navigateur qui permet d'ouvrir une nouvelle fenêtre ou un nouvel onglet.
     // _blank le parametre de la cible de la fonction window.open
-    <div className="lg:flex gap-3 pt-3">
+    <div className="flex lg:flex gap-3 pt-3">
       
       {/* instagram */}
       <svg

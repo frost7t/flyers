@@ -16,7 +16,7 @@ export default function DestinationItem({
       onMouseEnter={() => handleMouseEnter(destination)} // Déclenche la fonction "handleMouseEnter" lorsqu'on survole l'élément div avec la destination en paramètre
       onMouseLeave={handleMouseLeave} // Déclenche la fonction "handleMouseLeave" lorsqu'on quitte l'élément div
     >
-      <h3 className=" text-2xl lg:text-4xl font-semibold pb-40">
+      <h3 className=" text-2xl lg:text-4xl font-semibold pb-20 md:pb-40">
         {name} <span className="font-normal">({code})</span>
          {/* // Affiche le nom
         de la destination et le code entre parenthèses ex: Paris = LBG*/}

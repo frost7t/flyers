@@ -10,7 +10,7 @@ export default function BookFlight() {
           "linear-gradient(1turn, #d3e3f2, rgba(211, 227, 242, 0) 72.08%)",
       }}
     >
-      <div className="text-center bg-[url('/img/clouds.png')] h-[50vh] bg-cover bg-center">
+      <div className="text-center bg-[url('/img/clouds.png')] h-20  md:h-40 lg:h-[50vh] bg-cover bg-center">
         <p className="text-[#8e8e95] hidden md:block text-2xl lg:text-4xl font-medium">
           What are you waiting for?
         </p>

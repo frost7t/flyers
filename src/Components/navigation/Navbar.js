@@ -64,7 +64,7 @@ export default function Navbar() {
             </li>
           </Link>
           <Link href="/contact">
-            <li className="group inline-block">
+            <li className="group inline-block lg:mr-20">
               <span className="transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-black">
                 Contact
               </span>
@@ -75,7 +75,7 @@ export default function Navbar() {
           <NavIcons />
         </div>
       </div>
-      <div className="flex pt-2  justify-between lg:flex-row lg:justify-between">
+      <div className="flex lg:pt-2  justify-between lg:flex-row lg:justify-between">
         <Link href="/">
           <div className=" ml-3 lg:hidden">
             <svg width="55" height="55" viewBox="0 0 55 55">

@@ -11,7 +11,7 @@ export default function CardSolutions() {
         <p className="text-lg font-medium py-3">
           Smart solutions for all your charter requirements
         </p>
-        <div className="absolute bottom-2 lg:bottom-16">
+        <div className=" py-5 lg:py-0 absolute bottom-2 lg:bottom-16">
           <Link href="/solutions">
             <button className="border rounded-full text-lg lg:text-2xl p-1 lg:p-3 border-white hover:bg-white hover:text-black">
               All Solutions

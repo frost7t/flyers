@@ -12,14 +12,14 @@ export default function Experiences() {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div>
-          <p className="pb-3 text-xl lg:w-1/2">
+          <p className=" pb-3 text-lg -tracking-wider lg:tracking-normal lg:w-1/2">
             At Hyer® we are bold. The aircraft is just a tool we use to get you
             where you want to be. Our clients enjoy much more value for their
             investment, accessing unparalleled personalisation when flying
             private. <br />
             <br /> We offer <strong>personalised experiences</strong>with our
             <strong> on-demand </strong>charters and
-            <strong>personalised flexibility</strong>
+            <strong>personalised flexibility </strong>
             with our exclusive <strong>shared flight.</strong> We upgrade the
             way you fly.
           </p>

@@ -17,11 +17,13 @@ export default function CardOnDemand() {
   return (
     <Link href="/on-demand">
       <div
-        className="w-full lg:h-[100vh] h-[33vh] bg-left bg-cover z-20 relative flex"
-        style={{ backgroundImage: `url('/img/2.jpg')` }}
+        className="w-full lg:h-[100vh] h-[33vh] bg-left  bg-cover z-20 relative flex"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('/img/2.jpg')`,
+        }}
       >
         <h3
-          className={`text-5xl font-semibold z-10 flex items-center gap-3 text-[#fff] shadow-sm absolute left-14 bottom-20 ${
+          className={`text-3xl lg:text-5xl font-semibold z-10 flex items-center gap-3 text-[#fff]  absolute left-14 bottom-20 ${
             isHovered ? "hover:bottom-36" : ""
             //  Utilisation d'une expression ternaire pour ajouter la classe "hover:bottom-36" si isHovered est vrai
           }`}
