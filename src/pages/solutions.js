@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function Solutions() {
   return (
-    <div>Solutions</div>
-  )
+    <div>
+      solutions
+    </div>
+  );
 }
