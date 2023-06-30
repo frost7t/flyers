@@ -37,7 +37,7 @@ export default function FoundingTeam() {
                 </h3>
                 <p className="text-xl">{Founder.role}</p>
               </div>
-              <p className="-tracking-wider lg:tracking-normal ">
+              <p className="-tracking-wider lg:tracking-normal pb-5 ">
                 {Founder.description}
               </p>
             </div>
