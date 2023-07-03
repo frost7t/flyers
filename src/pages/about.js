@@ -5,6 +5,8 @@ import OtherNav from "@/Components/navigation/OtherNav";
 import WhyHyer from "@/Components/WhyHyer";
 import React from "react";
 import AboutClient from "@/Components/AboutClient";
+import Timeline from "@/Components/Timeline";
+import Technology from "@/Components/Technology";
 
 export default function About() {
   return (
@@ -15,6 +17,8 @@ export default function About() {
         <FoundingTeam />
         <WhyHyer />
         <AboutClient />
+        <Timeline />
+        <Technology />
         <Footer />
       </div>
     </div>
