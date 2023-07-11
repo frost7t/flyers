@@ -28,7 +28,7 @@ export default function MembershipsSolutions() {
               className="object-cover h-[25rem] lg:max-w-lg lg:h-[34rem]"
             />
           </Link>
-          <h3 className="text-3xl pb-1">Elevate</h3>
+          <h3 className="text-3xl pb-1 pt-1">Elevate</h3>
           <p className="text-[#9a9a9a] pb-5">
             Enhanced services, control and rewards
           </p>
@@ -39,7 +39,7 @@ export default function MembershipsSolutions() {
             alt="group"
             className="object-cover h-[25rem] lg:max-w-lg lg:h-[34rem]"
           />
-          <h3 className="text-3xl pb-1">Hyer® Altitude</h3>
+          <h3 className="text-3xl pb-1 pt-1">Hyer® Altitude</h3>
           <p className="text-[#9a9a9a] pb-10">Coming soon</p>
         </div>
       </div>

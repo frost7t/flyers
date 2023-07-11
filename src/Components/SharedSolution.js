@@ -30,7 +30,7 @@ export default function SharedSolution() {
               className="object-cover h-[25rem] lg:max-w-lg lg:h-[34rem]"
             />
           </Link>
-          <h3 className="text-3xl pb-1">Available Flights</h3>
+          <h3 className="text-3xl pb-1 pt-1">Available Flights</h3>
           <p className="text-[#9a9a9a] pb-5">Join in a shared flight.</p>
         </div>
         <div className="">
@@ -39,7 +39,7 @@ export default function SharedSolution() {
             alt="group"
             className="object-cover h-[25rem] lg:max-w-lg lg:h-[34rem]"
           />
-          <h3 className="text-3xl pb-1">Propose a route</h3>
+          <h3 className="text-3xl pb-1 pt-1">Propose a route</h3>
           <p className="text-[#9a9a9a] pb-10">Start your shared flight. </p>
         </div>
       </div>

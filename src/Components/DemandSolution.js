@@ -28,7 +28,7 @@ export default function DemandSolution() {
               className="object-cover h-[25rem] lg:max-w-lg lg:h-[34rem]"
             />
           </Link>
-          <h3 className="text-3xl pb-1">Private Charter</h3>
+          <h3 className="text-3xl pt-1 pb-1">Private Charter</h3>
           <p className="text-[#9a9a9a] pb-5">
             Your aircraft is ready when you are.
           </p>
@@ -39,7 +39,7 @@ export default function DemandSolution() {
             alt="group"
             className="object-cover h-[25rem] lg:max-w-lg lg:h-[34rem]"
           />
-          <h3 className="text-3xl pb-1">Group Charter</h3>
+          <h3 className="text-3xl pt-1 pb-1">Group Charter</h3>
           <p className="text-[#9a9a9a] pb-10">Coming soon</p>
         </div>
       </div>
