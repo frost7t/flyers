@@ -1,7 +1,8 @@
-import React from 'react'
+
+import React from "react";
 
 export default function Register() {
   return (
-    <div>R</div>
-  )
+   <div>register</div>
+  );
 }
