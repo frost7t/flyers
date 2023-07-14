@@ -9,7 +9,7 @@ export default function ContactHyer() {
       </div>
       <div className="pb-10">
         <CardContact />
-        <div className="pb-10 lg:pt-20">
+        <div className="pb-10 lg:pt-20" id="ScrollContact">
           <img src="/contact/room.jpg" alt="room" />
         </div>
       </div>

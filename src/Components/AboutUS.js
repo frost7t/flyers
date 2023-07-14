@@ -1,6 +1,16 @@
 import React from "react";
 
 export default function AboutUS() {
+ const handleClick = () => {
+   // Récupère l'élément à faire défiler jusqu'à lui
+   const element = document.getElementById("ScrollTeams");
+
+   // Vérifie si l'élément existe
+   if (element) {
+     // Fait défiler jusqu'à l'élément avec un effet de défilement fluide
+     element.scrollIntoView({ behavior: "smooth" });
+   }
+ };
   return (
     <>
       <div className=" max-w-[90%] mx-auto lg:ml-[62.5%] mt-[2.4vw]">
@@ -21,6 +31,7 @@ export default function AboutUS() {
               fill="none"
               width="35"
               height="40"
+              onClick={handleClick}
             >
               <path
                 d="M21.36 9.39L21.36 14.19L10.68 22.26L0 14.19L0 9.39L4.95 13.14C6.53 14.32 7.85 15.35 8.91 16.23L8.91 0.419999L12.48 0.42L12.48 16.2C13.96 15.02 15.27 14 16.41 13.14L21.36 9.39Z"

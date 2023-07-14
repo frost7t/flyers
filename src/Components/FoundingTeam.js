@@ -17,7 +17,10 @@ export default function FoundingTeam() {
           built Hyer® to tackle this problem.
         </p>
       </div>
-      <div className="lg:flex lg:py-20 lg:space-x-10 items-center">
+      <div
+        className="lg:flex lg:py-20 lg:space-x-10 items-center"
+        id="ScrollTeams"
+      >
         {DataAbout.map(
           (
             Founder,
