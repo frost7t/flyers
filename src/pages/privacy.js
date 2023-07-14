@@ -4,13 +4,13 @@ import React from "react";
 
 export default function Privacy() {
   return (
-    <div className="">
+    <div>
       <HeaderPrivacy />
       <div className="max-w-[90%] lg:ml-[49%] mx-auto">
         <h3 className=" py-10 text-3xl lg:text-6xl font-semibold">
           Privacy Policy
         </h3>
-        <p className="max-w-2xl">
+        <p className="max-w-2xl" id="scroll">
           <p>
             Hyer® Aviation B.V (“we”,” Hyer®”, “our” or “us”) is committed to
             protecting customers (“you” and “your”) personal data. This Privacy
