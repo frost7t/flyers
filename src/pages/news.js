@@ -1,7 +1,14 @@
-import React from 'react'
+import New from "@/Components/New";
+import Footer from "@/Components/footer/Footer";
+import HeaderNews from "@/Components/header/HeaderNews";
+import React from "react";
 
 export default function News() {
   return (
-    <div>N</div>
-  )
+    <div>
+      <HeaderNews />
+      <New />
+      <Footer />
+    </div>
+  );
 }
