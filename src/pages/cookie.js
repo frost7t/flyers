@@ -1,4 +1,5 @@
 import InputCookie from "@/Components/buttons/InputCookie";
+import Footer from "@/Components/footer/Footer";
 import HeaderCookie from "@/Components/header/HeaderCookie";
 import React from "react";
 
@@ -134,9 +135,14 @@ export default function Cookie() {
               disable Google Analytics by downloading a tool from Google by
               referring to the following link:
             </p>
-            <p className="py-3 cursor-pointer">https://tools.google.com/dlpage/gaoptout?hl=nl</p>
+            <p className="py-3 cursor-pointer pb-20 lg:pb-40">
+              https://tools.google.com/dlpage/gaoptout?hl=nl
+            </p>
           </div>
         </div>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
