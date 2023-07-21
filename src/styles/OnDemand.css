@@ -1,0 +1,9 @@
+.background__Demand {
+  background-image: url(../../public/img/main.jpg);
+  background-size: 100% auto; /* Utilise 100% pour la largeur et auto pour la hauteur */
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+  min-height: 80vw;
+  background-color: #959494;
+  background-blend-mode: multiply;
+}
