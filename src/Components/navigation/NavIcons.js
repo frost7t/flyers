@@ -4,13 +4,14 @@ import MenuBurger from "./MenuBurger";
 import MenuPlane from "./MenuPlane";
 
 export default function NavIcons() {
+  // Variables d'état pour suivre l'état d'ouverture/fermeture des menus
   const [menuOpen1, setMenuOpen1] = useState(false);
   const [menuOpen2, setMenuOpen2] = useState(false);
-
+  // Fonction pour basculer l'état d'ouverture du premier menu
   const toggleMenu1 = () => {
     setMenuOpen1(!menuOpen1);
   };
-
+  // Fonction pour basculer l'état d'ouverture du deuxième menu
   const toggleMenu2 = () => {
     setMenuOpen2(!menuOpen2);
   };
