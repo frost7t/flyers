@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import DataDestOn from "@/data/DataDestOn"; // Importation de ma data
-import DestItem from "../DestItem"; // Importation du composant DestinationItem
+import DestItem from "../DestItem"; // Importation du composant DestItem
 
 export default function CardDestOn() {
   const [hoveredDestination, setHoveredDestination] = useState(null); // Utilisation du hook useState pour gérer l'état de la destination survolée
@@ -21,7 +21,7 @@ export default function CardDestOn() {
             hoveredDestination
               ? hoveredDestination.image
               : "../sliderDest/london.jpg"
-          } // Utilise l'image de la destination survolée si elle existe, sinon utilise l'image "../slider/barcelona.jpg"
+          } // Utilise l'image de la destination survolée si elle existe, sinon utilise l'image "../sliderDest/london.jpg"
           alt="slider"
           className="rounded-br-[60px] lg:w-[50%]"
         />
