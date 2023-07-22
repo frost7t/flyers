@@ -10,7 +10,7 @@ export default function DemandSolution() {
         </div>
         <div>
           <p className="lg:text-2xl max-w-lg">
-            Fly on your terms. When you want, where you want.{" "}
+            Fly on your terms. When you want, where you want.
           </p>
           <p className="max-w-lg pt-5 lg:text-2xl">
             Flying On-Demand gives you the total control of your flight and an
