@@ -1,3 +1,4 @@
+import Collapse from "@/Components/Collapse/Collaspe";
 import DestinationOnDemand from "@/Components/DestinationOnDemand";
 import MeetManager from "@/Components/MeetManager";
 import OnDemandd from "@/Components/OnDemandd";
@@ -18,6 +19,7 @@ export default function OnDemand() {
       <OnDemandd />
       <CardClient />
       <DestinationOnDemand />
+      <Collapse />
       <Footer />
     </div>
   );

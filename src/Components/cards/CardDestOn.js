@@ -14,8 +14,8 @@ export default function CardDestOn() {
   };
 
   return (
-    <div className="w-[90%]">
-      <div className="ml-[8%] pb-[9.3vw] lg:flex">
+    <div className="max-w-[90%] mx-auto border-b-[1px]  border-black">
+      <div className=" pb-[9.3vw] lg:flex">
         <img
           src={
             hoveredDestination
