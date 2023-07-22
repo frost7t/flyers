@@ -1,3 +1,4 @@
+import DestinationOnDemand from "@/Components/DestinationOnDemand";
 import MeetManager from "@/Components/MeetManager";
 import OnDemandd from "@/Components/OnDemandd";
 import OnExperience from "@/Components/OnExperience";
@@ -16,6 +17,7 @@ export default function OnDemand() {
       <OnExperience />
       <OnDemandd />
       <CardClient />
+      <DestinationOnDemand />
       <Footer />
     </div>
   );
