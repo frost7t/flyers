@@ -114,7 +114,7 @@ export default function NavIcons() {
             <MenuButtons />
             <span
               onClick={toggleMenu1}
-              className="w-10 h-10 lg:w-12 lg:h-12 rounded-full ml-2 pb-1 bg-[#000] flex justify-center items-center text-3xl text-gray-400 cursor-pointer z-10"
+              className="w-10 h-10 lg:w-12 lg:h-12 rounded-full ml-2 pb-1 bg-[#000] hover:bg-[#252424] flex justify-center items-center text-3xl text-gray-400 cursor-pointer z-10"
             >
               x
             </span>
