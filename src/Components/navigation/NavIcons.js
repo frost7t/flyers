@@ -92,6 +92,7 @@ export default function NavIcons() {
         </div>
       </div>
       {menuOpen2 && (
+        // La condition "menuOpen2" doit être vraie pour afficher ce menu.
         <div className="fixed right-0 top-0 h-screen w-full lg:w-[37%] z-10 bg-[#fff]">
           <div className="flex bg-[#000] h-40 p-4">
             <div className="flex">
@@ -107,6 +108,7 @@ export default function NavIcons() {
         </div>
       )}
       {menuOpen1 && (
+        // La condition "menuOpen1" doit être vraie pour afficher ce menu.
         <div className="fixed right-0 bottom-0 h-screen w-full lg:w-[37%] z-10 bg-[#fff]">
           <div className="lg:my-0 flex md:justify-end gap-8 items-center p-6 pb-10 ml-2 lg:mr-10 md:p-6 lg:p-10">
             <MenuButtons />
