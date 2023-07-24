@@ -7,13 +7,13 @@ export default function OnExperience() {
   return (
     <div className="p-[3.7vw] bg-[#151623]">
       <div>
-        <h4 className="mb-[6.8vw] text-3xl text-white  lg:text-9xl font-bold">
+        <h4 className="mb-[6.8vw] text-3xl text-[#fff]  lg:text-9xl font-bold">
           Hyer® <br /> Experience
         </h4>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div>
-          <p className=" pb-3 text-lg text-white -tracking-wider lg:tracking-normal lg:w-1/2">
+          <p className=" pb-3 text-lg text-[#fff] -tracking-wider lg:tracking-normal lg:w-1/2">
             Personalisation, flexibility and care are the core of Hyer®
             <strong>On-Demand</strong> flights. Our clients enjoy much more
             value for their investment.

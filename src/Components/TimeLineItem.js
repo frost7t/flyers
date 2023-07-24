@@ -11,13 +11,13 @@ export default function TimelineItem({
   fourDescription,
 }) {
   return (
-    <div className="max-w-[90%] mx-auto border-b-2 border-black">
+    <div className="max-w-[90%] mx-auto border-b-2 border-[#000]">
       <div>
         <h3 className="text-3xl lg:text-6xl font-semibold pt-5 pb-10 max-w-md">
           Our timeline
         </h3>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:border-b lg:border-dashed border-black lg:max-w-[90%] lg:py-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:border-b lg:border-dashed border-[#000] lg:max-w-[90%] lg:py-5">
         <div>
           <p className="font-semibold text-3xl">{firstYears}</p>
           <h3 className="lg:max-w-sm text-sm lg:text-lg lg:-tracking-wider font-normal py-3">

@@ -49,21 +49,21 @@ export default function WhiteNav() {
         <ul className="hidden lg:block  space-x-5 text-2xl">
           <Link href="/solutions">
             <li className="group inline-block">
-              <span className=" text-white transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-black">
+              <span className=" text-[#fff] transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-[#000]">
                 Solutions
               </span>
             </li>
           </Link>
           <Link href="/about">
             <li className="group inline-block">
-              <span className=" text-white transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-black">
+              <span className=" text-[#fff] transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-[#000]">
                 About us
               </span>
             </li>
           </Link>
           <Link href="/contact">
             <li className="group inline-block lg:mr-20">
-              <span className="text-white transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-black">
+              <span className="text-[#fff] transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-[#000]">
                 Contact
               </span>
             </li>

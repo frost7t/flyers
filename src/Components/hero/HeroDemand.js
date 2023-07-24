@@ -17,7 +17,7 @@ export default function HeroDemand() {
       >
         {DataDemand.map((item, index) => (
           <div key={index}>
-            <div className="border-t-[1px] border-black mb-8">
+            <div className="border-t-[1px] border-[#000] mb-8">
               <h1 className="text-3xl font-medium pt-5">{item.title}</h1>
               <p className=" text-lg lg:text-2xl text-[#8e8e95] py-3">
                 {item.description}

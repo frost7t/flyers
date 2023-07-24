@@ -15,10 +15,10 @@ export default function HeaderCookie() {
   };
 
   return (
-    <div className="bg-black lg:rounded-br-[90px]">
+    <div className="bg-[#000] lg:rounded-br-[90px]">
       <WhiteNav />
       <div className="lg:ml-[62.5%] lg:pt-[20%] pt-[30%]  ml-[5%]">
-        <h2 className="text-white text-4xl pb-20 lg:text-6xl font-semibold">
+        <h2 className="text-[#fff] text-4xl pb-20 lg:text-6xl font-semibold">
           Cookie Policy
         </h2>
 

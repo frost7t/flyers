@@ -15,7 +15,7 @@ const CardTab = () => {
       <div className="flex">
         <button
           className={`px-4 py-2 mr-2 rounded-md text-[#fff] ${
-            activeTab === 1 ? "bg-[#ff9c09] text-black" : ""
+            activeTab === 1 ? "bg-[#ff9c09] text-[#000]" : ""
           }`}
           onClick={() => handleTabClick(1)}
         >
@@ -23,7 +23,7 @@ const CardTab = () => {
         </button>
         <button
           className={`px-4 py-2 rounded-md text-[#fff] ${
-            activeTab === 2 ? "bg-[#ff9c09] text-black" : ""
+            activeTab === 2 ? "bg-[#ff9c09] text-[#000]" : ""
           }`}
           onClick={() => handleTabClick(2)}
         >
@@ -63,7 +63,7 @@ const CardTab = () => {
             <div className="text-left pt-3">
               <div className="mb-2 font-medium">One way</div>
               <div className="relative">
-                <div className="border-t border-black border-solid w-full"></div>
+                <div className="border-t border-[#000] border-solid w-full"></div>
                 <div className="absolute left-1 -top-1">
                   <div className="w-14 h-[3.5px] bg-[#892c2c] rounded-full"></div>
                 </div>
@@ -73,7 +73,9 @@ const CardTab = () => {
               <InputButtons />
               {/* // Affiche le composant InputButtons */}
             </div>
-            <button class="bg-black text-white rounded-full mt-16 w-20 h-10">Proceed</button>
+            <button class="bg-[#000] text-[#fff] rounded-full mt-16 w-20 h-10">
+              Proceed
+            </button>
           </div>
         )}
       </div>

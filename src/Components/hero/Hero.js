@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="grid lg:grid-cols-2 lg:ml-[41.66%] lg:max-w-[50%] lg:gap-10 lg:py-10 max-w-[90%] mx-auto">
         {DataExperience.map((item, index) => (
           <div key={index}>
-            <div className="border-t-[1px] border-black mb-8">
+            <div className="border-t-[1px] border-[#000] mb-8">
               <h1 className="text-3xl font-medium pt-5">{item.title}</h1>
               <p className=" text-lg lg:text-2xl text-[#8e8e95] py-3">
                 {item.description}

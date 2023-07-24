@@ -75,7 +75,7 @@ export default function MeetManager() {
             {/* Icône de flèche pour faire défiler vers la droite */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8 lg:h-10 lg:w-10 text-black shadow-md  rounded-md bg-opacity-90  bg-white shadow-black"
+              className="h-8 w-8 lg:h-10 lg:w-10 text-[#000] shadow-md  rounded-md bg-opacity-90  bg-[#fff] shadow-[#000]"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -95,7 +95,7 @@ export default function MeetManager() {
             {/* Icône de flèche pour faire défiler vers la gauche */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8 lg:h-10 lg:w-10 text-black shadow-md  rounded-md bg-opacity-90  bg-white shadow-black"
+              className="h-8 w-8 lg:h-10 lg:w-10 text-[#000] shadow-md  rounded-md bg-opacity-90  bg-[#fff] shadow-[#000]"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"

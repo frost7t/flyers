@@ -13,7 +13,7 @@ export default function CardSolutions() {
         </p>
         <div className=" py-5 lg:py-0 absolute bottom-2 lg:bottom-16">
           <Link href="/solutions">
-            <button className="border rounded-full text-lg lg:text-2xl p-1 lg:p-3 border-white hover:bg-white hover:text-black">
+            <button className="border rounded-full text-lg lg:text-2xl p-1 lg:p-3 border-[#fff] hover:bg-[#fff] hover:text-[#000]">
               All Solutions
             </button>
           </Link>

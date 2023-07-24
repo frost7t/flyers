@@ -3,7 +3,7 @@ import React from "react";
 
 export default function FoundingTeam() {
   return (
-    <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2  border-b-2 border-black">
+    <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2  border-b-2 border-[#000]">
       <div>
         <h3 className=" text-3xl lg:text-6xl font-semibold pt-3 lg:pt-20 pb-5 lg:pb-14">
           Founding Team

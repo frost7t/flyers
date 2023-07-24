@@ -14,10 +14,10 @@ export default function HeaderNews() {
     <div className="background__new">
       <WhiteNav />
       <div className="lg:ml-[62.5%] lg:pt-[20%] pt-[70%] ml-[5%]">
-        <h2 className="text-white text-4xl lg:text-6xl font-semibold">
+        <h2 className="text-[#fff] text-4xl lg:text-6xl font-semibold">
           What's New?
         </h2>
-        <p className="text-white pt-3 pb-20 md:pb-10 lg:pb-20 lg:pt-8 lg:text-2xl lg:max-w-lg">
+        <p className="text-[#fff] pt-3 pb-20 md:pb-10 lg:pb-20 lg:pt-8 lg:text-2xl lg:max-w-lg">
           Stay up-to-date with everyting about Hyer® and Aviation related.
         </p>
         <svg

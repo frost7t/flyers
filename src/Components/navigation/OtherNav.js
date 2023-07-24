@@ -53,21 +53,21 @@ export default function OtherNav() {
           <ul className="hidden lg:block  space-x-5 text-2xl">
             <Link href="/solutions">
               <li className="group inline-block">
-                <span className="transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-black">
+                <span className="transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-[#000]">
                   Solutions
                 </span>
               </li>
             </Link>
             <Link href="/about">
               <li className="group inline-block">
-                <span className="transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-black">
+                <span className="transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-[#000]">
                   About us
                 </span>
               </li>
             </Link>
             <Link href="/contact">
               <li className="group inline-block lg:mr-20">
-                <span className="transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-black">
+                <span className="transition-colors duration-300 ease-in-out group-hover:border-b-2 group-hover:border-[#000]">
                   Contact
                 </span>
               </li>
@@ -105,7 +105,7 @@ export default function OtherNav() {
           </div>
         </div>
       </div>
-      <div className="border-b-2 border-black max-w-[90%] mx-auto pt-5"></div>
+      <div className="border-b-2 border-[#000] max-w-[90%] mx-auto pt-5"></div>
     </>
   );
 }

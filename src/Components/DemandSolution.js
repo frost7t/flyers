@@ -19,7 +19,7 @@ export default function DemandSolution() {
           </p>
         </div>
       </div>
-      <div className="max-w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:pt-10 border-b-2 border-black">
+      <div className="max-w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:pt-10 border-b-2 border-[#000]">
         <div className="">
           <Link href="/on-demand">
             <img

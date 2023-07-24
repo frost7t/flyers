@@ -10,15 +10,15 @@ export default function CardClient() {
           choices.
         </h1>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3 max-w-2xl lg:gap-10">
-          <div className="border-t-[1px] border-black">
+          <div className="border-t-[1px] border-[#000]">
             <p className="lg:text-5xl font-semibold py-3">7000</p>
             <p className="font-medium">Aircraft worldwide</p>
           </div>
-          <div className="border-t-[1px] border-black">
+          <div className="border-t-[1px] border-[#000]">
             <p className="lg:text-5xl font-semibold py-3">27000</p>
             <p className="font-medium">Airport to choose from</p>
           </div>
-          <div className="border-t-[1px] border-black">
+          <div className="border-t-[1px] border-[#000]">
             <p className="lg:text-5xl font-semibold py-3">25</p>
             <p className="font-medium">Aircraft types available</p>
           </div>

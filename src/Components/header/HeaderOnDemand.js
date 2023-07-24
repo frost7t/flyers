@@ -16,7 +16,7 @@ export default function HeaderOnDemand() {
   return (
     <div className="background__Demand ">
       <WhiteNav />
-      <div className="text-white text-center font-semibold pt-5 max-w-[90%] mx-auto">
+      <div className="text-[#fff] text-center font-semibold pt-5 max-w-[90%] mx-auto">
         <p className="lg:text-lg">Easily Book Your Aircraft. Fly Anytime...</p>
         <h2 className="text-4xl md:text-6xl pb-20 lg:text-9xl">On-Demand</h2>
         <div className="flex justify-center lg:pt-60">

@@ -14,7 +14,7 @@ export default function CardDestOn() {
   };
 
   return (
-    <div className="max-w-[90%] mx-auto border-b-[1px]  border-black">
+    <div className="max-w-[90%] mx-auto border-b-[1px]  border-[#000]">
       <div className=" pb-[9.3vw] lg:flex">
         <img
           src={

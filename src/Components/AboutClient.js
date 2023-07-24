@@ -11,7 +11,7 @@ export default function AboutClient() {
   };
 
   return (
-    <div className="max-w-[90%] mx-auto lg:pt-5 lg:pb-60 grid grid-cols-1 lg:grid-cols-2 border-b-2 border-black">
+    <div className="max-w-[90%] mx-auto lg:pt-5 lg:pb-60 grid grid-cols-1 lg:grid-cols-2 border-b-2 border-[#000]">
       <div>
         <h3 className="text-3xl lg:text-7xl font-semibold py-5 max-w-md">
           What our clients say

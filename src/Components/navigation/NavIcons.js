@@ -20,7 +20,7 @@ export default function NavIcons() {
     <>
       <div className=" flex-row-reverse lg:flex lg:gap-3 items-center">
         <div
-          className="my-2 lg:my-0 flex justify-center items-center w-12 h-12 rounded-full bg-black hover:bg-[#252424] cursor-pointer"
+          className="my-2 lg:my-0 flex justify-center items-center w-12 h-12 rounded-full bg-[#000] hover:bg-[#252424] cursor-pointer"
           onClick={toggleMenu1}
         >
           <svg
@@ -68,7 +68,7 @@ export default function NavIcons() {
           </svg>
         </div>
         <div
-          className="lg:my-0 flex justify-center items-center w-12 h-12 rounded-full bg-black hover:bg-[#252424] cursor-pointer z-10"
+          className="lg:my-0 flex justify-center items-center w-12 h-12 rounded-full bg-[#000] hover:bg-[#252424] cursor-pointer z-10"
           onClick={toggleMenu2}
         >
           <svg
@@ -92,13 +92,13 @@ export default function NavIcons() {
         </div>
       </div>
       {menuOpen2 && (
-        <div className="fixed right-0 top-0 h-screen w-full lg:w-[37%] z-10 bg-white">
-          <div className="flex bg-black h-40 p-4">
+        <div className="fixed right-0 top-0 h-screen w-full lg:w-[37%] z-10 bg-[#fff]">
+          <div className="flex bg-[#000] h-40 p-4">
             <div className="flex">
               <MenuPlane />
               <span
                 onClick={toggleMenu2}
-                className="w-10 h-10 lg:w-12 lg:h-12 rounded-full xl:w-12 xl:h-12 ml-2 pb-1 bg-white flex justify-center items-center text-3xl text-gray-400 cursor-pointer z-10"
+                className="w-10 h-10 lg:w-12 lg:h-12 rounded-full xl:w-12 xl:h-12 ml-2 pb-1 bg-[#fff] flex justify-center items-center text-3xl text-gray-400 cursor-pointer z-10"
               >
                 x
               </span>
@@ -107,12 +107,12 @@ export default function NavIcons() {
         </div>
       )}
       {menuOpen1 && (
-        <div className="fixed right-0 bottom-0 h-screen w-full lg:w-[37%] z-10 bg-white">
+        <div className="fixed right-0 bottom-0 h-screen w-full lg:w-[37%] z-10 bg-[#fff]">
           <div className="lg:my-0 flex md:justify-end gap-8 items-center p-6 pb-10 ml-2 lg:mr-10 md:p-6 lg:p-10">
             <MenuButtons />
             <span
               onClick={toggleMenu1}
-              className="w-10 h-10 lg:w-12 lg:h-12 rounded-full ml-2 pb-1 bg-black flex justify-center items-center text-3xl text-gray-400 cursor-pointer z-10"
+              className="w-10 h-10 lg:w-12 lg:h-12 rounded-full ml-2 pb-1 bg-[#000] flex justify-center items-center text-3xl text-gray-400 cursor-pointer z-10"
             >
               x
             </span>

@@ -11,7 +11,7 @@ export default function CardOnExperience() {
             alt={card.alt}
             className="max-h-20 md:max-h-full"
           />
-          <div className="w-[90%] pt-5 text-white">
+          <div className="w-[90%] pt-5 text-[#fff]">
             <h3 className="font-semibold text-2xl pb-3">{card.title}</h3>
             <p className="py-5">{card.description}</p>
           </div>

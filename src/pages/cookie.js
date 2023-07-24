@@ -8,8 +8,8 @@ export default function Cookie() {
     <div>
       <HeaderCookie />
       <div className="max-w-[90%]  mx-auto">
-        <div className="border-b-2 border-black pt-40"></div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 py-2 pb-40 border-b-2 border-black">
+        <div className="border-b-2 border-[#000] pt-40"></div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 py-2 pb-40 border-b-2 border-[#000]">
           <div className="pt-5">
             <h3 className="text-3xl lg:text-5xl font-semibold">Settings</h3>
           </div>

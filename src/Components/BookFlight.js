@@ -15,7 +15,7 @@ export default function BookFlight() {
           What are you waiting for?
         </p>
         <Link href="/">
-          <h3 className="font-bold text-4xl pt-20 lg:pt-10 lg:text-9xl hover:border-b-2  border-black inline">
+          <h3 className="font-bold text-4xl pt-20 lg:pt-10 lg:text-9xl hover:border-b-2  border-[#000] inline">
             Book a flight
           </h3>
         </Link>

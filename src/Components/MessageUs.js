@@ -37,7 +37,7 @@ export default function MessageUs() {
 
               {/* Vérification du type de champ */}
               {item.id === "phone" ? ( // Si c'est le champ "Phone Number"
-                <div className="flex items-center border-b border-black">
+                <div className="flex items-center border-b border-[#000]">
                   {/* Liste déroulante des pays */}
                   <select
                     className="appearance-none bg-transparent border-none w-1/3 py-2 px-3 text-gray-700 leading-tight focus:outline-none"
@@ -59,7 +59,7 @@ export default function MessageUs() {
                 </div>
               ) : item.type === "textarea" ? ( // Si c'est un champ de type "textarea"
                 <textarea
-                  className="appearance-none border-b border-black w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-black"
+                  className="appearance-none border-b border-[#000] w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-[#000]"
                   id={item.id}
                   placeholder={item.placeholder}
                   rows={item.rows}
@@ -67,7 +67,7 @@ export default function MessageUs() {
               ) : (
                 // Pour tous les autres champs de saisie
                 <input
-                  className="appearance-none border-b border-black w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-black"
+                  className="appearance-none border-b border-[#000] w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-[#000]"
                   id={item.id}
                   type={item.type}
                   placeholder={item.placeholder}
@@ -79,7 +79,7 @@ export default function MessageUs() {
           {/* Bouton d'envoi */}
           <div className="flex items-center">
             <button
-              className="bg-black hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-xl"
+              className="bg-[#000] hover:bg-gray-900 text-[#FFF] font-bold py-2 px-4 rounded-xl"
               type="submit"
             >
               Send Message
