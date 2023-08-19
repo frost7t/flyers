@@ -73,9 +73,13 @@ const CardTab = () => {
               <InputButtons />
               {/* // Affiche le composant InputButtons */}
             </div>
-            <button class="bg-[#000] text-[#fff] rounded-full mt-16 w-20 h-10">
-              Proceed
-            </button>
+            <Link href="/404">
+              {/* en cliquant sur Proceed une redirection aura lieu vers la page 404 (Temporarily) */}
+              {/* Connexion à effectuer before const */}
+              <button class="bg-[#000] text-[#fff] rounded-full mt-16 w-20 h-10">
+                Proceed
+              </button>
+            </Link>
           </div>
         )}
       </div>
