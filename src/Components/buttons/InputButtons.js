@@ -59,7 +59,7 @@ export default function InputButtons() {
             value={from}
             onChange={handleFromChange}
           >
-            <option value="">Sélectionnez un pays</option>
+            <option value="">Select a country</option>
             {paysValides.map((pays) => (
               // je boucle avec map qui génère des options à partir du tableau 'paysValides'
               <option key={pays} value={pays}>
@@ -69,10 +69,10 @@ export default function InputButtons() {
           </select>
           {isFromValid ? (
             /* Un bloc conditionnel qui vérifie si 'isToValid' est vrai (c'est-à-dire si le pays sélectionné est valide) */
-            <span className="text-green-500 text-sm">Pays accepté</span>
+            <span className="text-green-500 text-sm">Country accepted</span>
           ) : (
             /* Si 'isToValid' est faux, cela signifie que le pays sélectionné n'est pas valide */
-            <span className="text-red-500 text-sm">Pays non valide</span>
+            <span className="text-red-500 text-sm">Invalid country</span>
           )}
         </div>
       </div>
@@ -89,7 +89,7 @@ export default function InputButtons() {
             value={to}
             onChange={handleToChange}
           >
-            <option value="">Sélectionnez un pays</option>
+            <option value="">Select a country</option>
             {paysValides.map((pays) => (
               // je boucle avec map qui génère des options à partir du tableau 'paysValides'
               <option key={pays} value={pays}>
@@ -99,10 +99,10 @@ export default function InputButtons() {
           </select>
           {isToValid ? (
             /* Un bloc conditionnel qui vérifie si 'isToValid' est vrai (c'est-à-dire si le pays sélectionné est valide) */
-            <span className="text-green-500 text-sm">Pays accepté</span>
+            <span className="text-green-500 text-sm">Country accepted</span>
           ) : (
             /* Si 'isToValid' est faux, cela signifie que le pays sélectionné n'est pas valide */
-            <span className="text-red-500 text-sm">Pays non valide</span>
+            <span className="text-red-500 text-sm">Invalid country</span>
           )}
         </div>
       </div>
