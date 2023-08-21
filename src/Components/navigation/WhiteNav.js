@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import React from 'react'
 import NavIconWhite from './NavIconWhite';
+import ScrollToTopButton from '../scrollingbtn/ScrollToTopBtnIcon';
 
 export default function WhiteNav() {
   return (
     <div className="items-center lg:grid grid-cols-2  w-full h-full pt-[1.1vw] lg:pl-24">
+      <ScrollToTopButton/>
       <Link href="/">
         <div className="hidden lg:block">
           <svg

@@ -47,7 +47,7 @@ export default function Navbar() {
           </svg>
         </div>
       </Link>
-      <div className="flex justify-center lg:space-x-5">
+      <div className="flex justify-center lg:space-x-5 ">
         <ul className="hidden lg:block  space-x-5 text-2xl">
           <Link href="/solutions">
             <li className="group inline-block">

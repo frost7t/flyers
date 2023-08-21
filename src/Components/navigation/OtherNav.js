@@ -1,11 +1,13 @@
 import Link from "next/link";
 import React from "react";
 import NavIcons from "./NavIcons";
+import ScrollToTopButton from "../scrollingbtn/ScrollToTopBtnIcon";
 
 export default function OtherNav() {
   return (
     <>
       <div className=" lg:grid grid-cols-2 max-w-[1740px] w-full h-full pt-[2.6vw] lg:ml-20 lg:mb-10 ">
+        <ScrollToTopButton/>
         <Link href="/">
           <div className="hidden lg:block">
             <svg
