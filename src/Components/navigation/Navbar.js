@@ -3,7 +3,7 @@ import NavIcons from "./NavIcons";
 import Link from "next/link";
 export default function Navbar() {
   return (
-    <div className=" lg:grid grid-cols-2 max-w-[1740px] bg-transparent absolute lg:top-0 lg:left-20 w-full h-full pt-[2.6vw]">
+    <div className=" lg:grid grid-cols-2 max-w-[1740px] bg-transparent absolute lg:top-0 lg:left-20 w-full h-full pt-[2.6vw] overflow-x-hidden">
       <Link href="/">
         <div className="hidden lg:block">
           <svg
