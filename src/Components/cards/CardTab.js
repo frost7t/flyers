@@ -1,6 +1,6 @@
-import Link from "next/link"; // Importe le composant Link de la bibliothèque "next/link"
-import { useState } from "react"; // Importe le hook useState de la bibliothèque "react"
-import InputButtons from "../buttons/InputButtons"; // Importe le composant InputButtons à partir d'un chemin relatif
+import Link from "next/link"; 
+import { useState } from "react"; 
+import InputButtons from "../buttons/InputButtons";
 
 const CardTab = () => {
   const [activeTab, setActiveTab] = useState(1); // Déclare une variable d'état "activeTab" avec la valeur initiale 1 et une fonction de mise à jour "setActiveTab"
