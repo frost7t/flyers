@@ -37,15 +37,17 @@ const CardTab = () => {
             <h1 className="text-4xl font-medium pb-10 text-[#fff]">
               Book On-Demand
             </h1>
-            <p className="pt-3">
-              Due to a high volume of requests, Hyer is currently unable to
-              accept new flight requests from non-members. We apologize for any
-              inconvenience this may cause.
+            <div className="pt-3">
+              <p>
+                Due to a high volume of requests, Hyer is currently unable to
+                accept new flight requests from non-members. We apologize for
+                any inconvenience this may cause.
+              </p>
               <p>
                 If you are interested in becoming a member, please click the
                 button below.
               </p>
-            </p>
+            </div>
             <Link href="/elevate-membership">
               {/* // Affiche un lien qui pointe vers "/elevate-membership" lorsque qu'il est cliqué */}
 
@@ -76,7 +78,7 @@ const CardTab = () => {
             <Link href="/404">
               {/* en cliquant sur Proceed une redirection aura lieu vers la page 404 (Temporarily) */}
               {/* Connexion à effectuer before const */}
-              <button class="bg-[#000] text-[#fff] rounded-full mt-16 w-20 h-10">
+              <button className="bg-[#000] text-[#fff] rounded-full mt-16 w-20 h-10">
                 Proceed
               </button>
             </Link>
