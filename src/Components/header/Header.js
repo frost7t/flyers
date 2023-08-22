@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="pt-10 flex bg-[url('/img/avi.png')] bg-cover bg-no-repeat bg-center lg:bg-center md:bg-right h-[50vh] lg:h-[100vh] w-full">
       <div className="left lg:block absolute lg:right-[10rem] lg:top-1/4">
-        <h3 className="hidden lg:block text-4xl lg:text-6xl font-semibold max-w-[32rem]">
+        <h3 className="hidden lg:block text-4xl lg:text-6xl font-semibold max-w-[36rem]">
           Personalised Aviation
         </h3>
       </div>
