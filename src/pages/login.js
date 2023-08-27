@@ -68,16 +68,16 @@ export default function Login() {
           </h2>
         </div>
       </div>
-      <div className="max-w-lg mx-auto ">
+      <div className="max-w-lg mx-auto pt-4 ">
         <p>Welcome, {session.user.name}!</p>
-        <h3 className="font-bold uppercase"> Information </h3>
+        <h3 className="font-bold uppercase py-3"> Information </h3>
         <div className="w-24 h-2">
           <hr />
         </div>
         <div className="flex">
           <p>Email: {session.user.email}</p>
         </div>
-        <div className="flex space-x-5">
+        <div className="flex space-x-5 pb-20">
           <p>Image:</p>
           <img
             width={50}
@@ -87,7 +87,14 @@ export default function Login() {
           />
         </div>
         {/* Add a logout button here */}
-        <button onClick={() => signOut()}>SignOut</button>
+        <div className="flex space-x-10">
+          <button className="BtnSignOut" onClick={() => signOut()}>
+            SignOut
+          </button>
+          <Link href="/">
+            <button className="BtnSignOut">Back to Home</button>
+          </Link>
+        </div>
       </div>
     </section>
   );

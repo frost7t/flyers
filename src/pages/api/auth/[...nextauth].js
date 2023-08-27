@@ -5,9 +5,9 @@ import { MongoDBAdapter } from "@auth/mongodb-adapter";
 import clientPromise from "../../../../lib/mongodb";
 import CredentialsProvider from "next-auth/providers/credentials";
 
-export const NextAuthOption= {
+export const NextAuthOption = {
   providers: [
-    // OAuth authentication providers...
+    //Fournisseurs d'authentification OAuth...
     GoogleProvider({
       clientId: process.env.GOOGLE_ID,
       clientSecret: process.env.GOOGLE_SECRET,
@@ -16,34 +16,34 @@ export const NextAuthOption= {
       clientId: process.env.GITHUB_ID,
       clientSecret: process.env.GITHUB_SECRET,
     }),
-   CredentialsProvider({
-    // The name to display on the sign in form (e.g. "Sign in with...")
-    name: "Credentials",
-    // `credentials` is used to generate a form on the sign in page.
-    // You can specify which fields should be submitted, by adding keys to the `credentials` object.
-    // e.g. domain, username, password, 2FA token, etc.
-    // You can pass any HTML attribute to the <input> tag through the object.
-    credentials: {
-      username: { label: "Username", type: "text", placeholder: "jsmith" },
-      password: { label: "Password", type: "password" }
-    },
-    async authorize(credentials, req) {
-      // Add logic here to look up the user from the credentials supplied
-      const user = { id: "1", name: "J Smith", email: "jsmith@example.com" }
+    CredentialsProvider({
+      // Le nom à afficher sur le formulaire de connexion (par exemple, "Se connecter avec...")
+      name: "Credentials",
+      // `credentials` est utilisé pour générer un formulaire sur la page de connexion.
+      // Vous pouvez spécifier les champs qui doivent être soumis en ajoutant des clés à l'objet `credentials`.
+      // Par exemple : domaine, nom d'utilisateur, mot de passe, jeton 2FA, etc.
+      // Vous pouvez passer n'importe quel attribut HTML à la balise <input> via l'objet.
+      credentials: {
+        username: { label: "Username", type: "text", placeholder: "jsmith" },
+        password: { label: "Password", type: "password" },
+      },
+      async authorize(credentials, req) {
+        // Ajoutez ici la logique pour rechercher l'utilisateur en utilisant les informations d'identification fournies.
+        const user = { id: "1", name: "J Smith", email: "jsmith@example.com" };
 
-      if (user) {
-        // Any object returned will be saved in `user` property of the JWT
-        return user
-      } else {
-        // If you return null then an error will be displayed advising the user to check their details.
-        return null
-
-        // You can also Reject this callback with an Error thus the user will be sent to the error page with the error message as a query parameter
-      }
-    }
-  })
-],
+        if (user) {
+          // Tout objet retourné sera enregistré dans la propriété `user` du JWT
+          return user;
+        } else {
+          // Si vous retournez null, une erreur sera affichée, conseillant à l'utilisateur de vérifier ses informations.
+          return null;
+          // Vous pouvez également rejeter cette fonction de rappel avec une erreur, ce qui enverra l'utilisateur à la page d'erreur avec le message d'erreur en tant que paramètre de requête.
+        }
+      },
+    }),
+  ],
   adapter: MongoDBAdapter(clientPromise),
-  session : {strategy: 'jwt'},
+  session: { strategy: "jwt" },
+  // Stratégie Json Web Token
 };
 export default NextAuth(NextAuthOption);
